@@ -1,0 +1,5 @@
+- hosts: vms
+  roles:
+    - jfouchard.acd-cli
+    - role: 'marvinpinto.plex'
+      become: true
